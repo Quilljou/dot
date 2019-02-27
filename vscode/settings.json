@@ -35,5 +35,6 @@
     "element-helper.version": "2.4",
     "gitlens.gitExplorer.files.layout": "tree",
     "gitlens.views.repositories.files.layout": "tree",
-    "terminal.external.osxExec": "iTerm.app"
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
 }
