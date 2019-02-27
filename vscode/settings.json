@@ -1,0 +1,39 @@
+{
+    "window.zoomLevel": 1,
+    "search.useRipgrep": false,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        { "language": "vue", "autoFix": true }
+    ],
+    "git.autofetch": true,
+    "[markdown]":  {
+        "editor.quickSuggestions": true,
+        "editor.tabCompletion": "on",
+        "editor.snippetSuggestions": "top"
+    },
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "file-icons",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.ignoreMissingGitWarning": true,
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "*.vue": "vue"
+    },
+    "emmet.includeLanguages": {
+        "wxml": "html"
+    },
+    "minapp-vscode.disableAutoConfig": true,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "eslint.autoFixOnSave": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "element-helper.version": "2.4",
+    "gitlens.gitExplorer.files.layout": "tree",
+    "gitlens.views.repositories.files.layout": "tree",
+    "terminal.external.osxExec": "iTerm.app"
+}

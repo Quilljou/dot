@@ -1,0 +1,18 @@
+{
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"table": {
+		"prefix": "table",
+		"body": [
+			"| ${1:Header One    } | ${2:Header Two    } |",
+			"| :-------------: | :-------------: |",
+			"| ${3:Item One      } | ${4:Item Two      } |$0"
+		]
+	}	
+}
