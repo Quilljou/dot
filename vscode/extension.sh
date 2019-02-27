@@ -7,13 +7,11 @@ code --install-extension bierner.markdown-preview-github-styles
 code --install-extension bierner.markdown-yaml-preamble
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension cstuder.gitlab-ci-validator
-code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension drKnoxy.eslint-disable-snippets
 code --install-extension eamodio.gitlens
 code --install-extension ecmel.vscode-html-css
 code --install-extension EditorConfig.EditorConfig
-code --install-extension eg2.tslint
 code --install-extension eg2.vscode-npm-script
 code --install-extension ElemeFE.vscode-element-helper
 code --install-extension FallenMax.mithril-emmet
@@ -28,7 +26,6 @@ code --install-extension HookyQR.beautify
 code --install-extension jeremyrajan.webpack
 code --install-extension liximomo.sftp
 code --install-extension mrmlnc.vscode-duplicate
-code --install-extension ms-vscode.atom-keybindings
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension octref.vetur
@@ -37,9 +34,7 @@ code --install-extension rebornix.project-snippets
 code --install-extension ritwickdey.LiveServer
 code --install-extension shinnn.stylelint
 code --install-extension sysoev.language-stylus
-code --install-extension vscodevim.vim
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension wix.vscode-import-cost
-code --install-extension yzhang.markdown-all-in-one
 code --install-extension zhuangtongfa.Material-theme
 code --install-extension Zignd.html-css-class-completion
