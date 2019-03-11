@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# excute in git bash
+# for windows, should be excuted in git bash
 
 
 if [ "$(uname)" = "Darwin" ]

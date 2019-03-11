@@ -4,6 +4,8 @@
     "eslint.validate": [
         "javascript",
         "javascriptreact",
+        "typescript",
+        "typescriptreact",
         { "language": "vue", "autoFix": true }
     ],
     "git.autofetch": true,
@@ -36,5 +38,5 @@
     "gitlens.gitExplorer.files.layout": "tree",
     "gitlens.views.repositories.files.layout": "tree",
     "terminal.external.osxExec": "iTerm.app",
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+    "typescript.tsserver.log": "verbose"
 }

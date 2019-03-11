@@ -1,5 +1,5 @@
 # macOS only
-# Generate vscode.extension.sh, make sure you have installed code command
+# Generate vscode.extension.sh, make sure you have code command installed
 code --list-extensions | xargs -L 1 echo code --install-extension > vscode/extension.sh
 
 # copy vscode config
