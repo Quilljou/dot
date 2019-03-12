@@ -22,7 +22,9 @@
         "*.cjson": "jsonc",
         "*.wxss": "css",
         "*.wxs": "javascript",
-        "*.vue": "vue"
+        "*.vue": "vue",
+        ".lintstagedrc": "json",
+        ".huskyrc": "json"
     },
     "emmet.includeLanguages": {
         "wxml": "html"
@@ -38,5 +40,5 @@
     "gitlens.gitExplorer.files.layout": "tree",
     "gitlens.views.repositories.files.layout": "tree",
     "terminal.external.osxExec": "iTerm.app",
-    "typescript.tsserver.log": "verbose"
+    "typescript.tsserver.log": "verbose",
 }

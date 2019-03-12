@@ -20,7 +20,6 @@ code --install-extension felixfbecker.php-intellisense
 code --install-extension file-icons.file-icons
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.code-runner
-code --install-extension haodaima.wx-smart-file
 code --install-extension hedinne.stylelint-disable-snippets
 code --install-extension HookyQR.beautify
 code --install-extension jeremyrajan.webpack
