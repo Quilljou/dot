@@ -3,5 +3,13 @@
     "key": "cmd+l",
     "command": "expandLineSelection",
     "when": "textInputFocus"
+},
+{
+    "key": "shift+cmd+r",
+    "command": "code-runner.run"
+},
+{
+    "key": "ctrl+alt+n",
+    "command": "-code-runner.run"
 }
 ]
