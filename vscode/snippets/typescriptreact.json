@@ -29,11 +29,11 @@
 	"FC": {
 		"prefix": "scaffold",
 		"body": [
-			"import React from 'react';",
+			"import React, { FC } from 'react';",
 			"",
 			"interface Props {$2}",
 			"",
-			"const $1: FunctionComponent<Props> = props => {",
+			"const $1: FC<Props> = props => {",
 			"	return null;",
 			"}",
 		]

@@ -1,22 +1,5 @@
 {
     "window.zoomLevel": 1,
-    "eslint.autoFixOnSave": true,
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        {
-            "language": "typescript",
-            "autoFix": true
-        },
-        {
-            "language": "typescriptreact",
-            "autoFix": true
-        },
-        {
-            "language": "vue",
-            "autoFix": true
-        }
-    ],
     "git.autofetch": true,
     "[markdown]":  {
         "editor.quickSuggestions": true,
@@ -30,7 +13,6 @@
     "files.associations": {
         "*.cjson": "jsonc",
         "*.wxss": "css",
-        "*.wxs": "javascript",
         ".lintstagedrc": "json",
         ".huskyrc": "json",
     },
@@ -43,6 +25,7 @@
     "editor.quickSuggestions": {
         "strings": true
     },
+    "search.followSymlinks": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
     "element-helper.version": "2.4",
@@ -64,16 +47,42 @@
     "[json]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
-    "npm.enableScriptExplorer": true,
     "code-runner.runInTerminal": true,
     "command-runner.commands": {
         "cdg": "cdg",
         "up": "up $dir",
         "legos dev": "legos build --watch",
+        "legos build": "legos build",
         "legos release": "legos release",
+        "openDir": "open ."
     },
     "code-runner.enableAppInsights": false,
     "code-runner.fileDirectoryAsCwd": true,
     "files.autoSave": "off",
-    "javascript.format.enable": false
+    "javascript.format.enable": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "workbench.editor.enablePreview": false,
+    "update.mode": "none",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "npm.enableScriptExplorer": true,
+    "workbench.startupEditor": "welcomePage",
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [{
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        },
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+    "gitlens.views.compare.files.layout": "list",
 }

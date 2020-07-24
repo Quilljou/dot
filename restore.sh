@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-# for windows, should be excuted in git bash
 
-
+# vscode
 if [ "$(uname)" = "Darwin" ]
 then
     cp -r $(pwd)/vscode/{settings.json,keybindings.json,snippets} ~/Library/Application\ Support/Code/User
@@ -14,3 +13,6 @@ then
     cp -r $(pwd)/vscode/{settings.json,keybindings.json,snippets} ~/Application\ Data/Code/User
     echo "vscode data restored on Windows"
 fi
+
+chmod a+x ./node.sh
+./node.sh
