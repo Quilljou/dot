@@ -54,7 +54,9 @@
         "legos dev": "legos build --watch",
         "legos build": "legos build",
         "legos release": "legos release",
-        "openDir": "open ."
+        "openDir": "open .",
+        "Open Terminal Here": "open -a iTerm $dir",
+        "leetcode": "leetcode submit $fileName"
     },
     "code-runner.enableAppInsights": false,
     "code-runner.fileDirectoryAsCwd": true,
@@ -62,27 +64,19 @@
     "javascript.format.enable": false,
     "terminal.integrated.shell.osx": "/bin/zsh",
     "workbench.editor.enablePreview": false,
-    "update.mode": "none",
+    "update.mode": "manual",
     "diffEditor.ignoreTrimWhitespace": true,
-    "npm.enableScriptExplorer": true,
     "workbench.startupEditor": "welcomePage",
-    "eslint.autoFixOnSave": true,
-    "eslint.validate": [{
-            "language": "typescript",
-            "autoFix": true
-        },
-        {
-            "language": "typescriptreact",
-            "autoFix": true
-        },
-        {
-            "language": "html",
-            "autoFix": true
-        },
-        {
-            "language": "vue",
-            "autoFix": true
-        }
-    ],
     "gitlens.views.compare.files.layout": "list",
+    "sync.gist": "896b4f0248eaab4e2eb487b5407c5c57",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
 }
